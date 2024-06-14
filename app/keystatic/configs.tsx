@@ -2,7 +2,8 @@ import { config as ksConfig, fields, collection } from "@keystatic/core";
 
 export const config = ksConfig({
   storage: {
-    kind: "local",
+    kind: "github",
+    repo: "trangcongthanh/remix-keystatic-playground",
   },
   collections: {
     posts: collection({
