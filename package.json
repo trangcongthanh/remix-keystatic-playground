@@ -13,6 +13,9 @@
     "typegen": "wrangler types"
   },
   "dependencies": {
+    "@keystatic/core": "^0.5.19",
+    "@keystatic/remix": "^5.0.0",
+    "@markdoc/markdoc": "^0.4.0",
     "@remix-run/cloudflare": "^2.9.2",
     "@remix-run/cloudflare-pages": "^2.9.2",
     "@remix-run/react": "^2.9.2",
