@@ -18,7 +18,7 @@ export default defineConfig({
     tsconfigPaths(),
   ],
   ssr: {
-    noExternal: [/^@keystatic\//, "minimatch"],
+    // noExternal: [/^@keystatic\//, "minimatch"],
     target: "webworker",
   },
 });
